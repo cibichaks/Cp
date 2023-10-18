@@ -7,3 +7,4 @@ int main (){
     printf("%p",&a);
 
 }
+//hello worrld this is pointer explanation
