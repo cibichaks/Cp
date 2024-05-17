@@ -1,15 +1,15 @@
 #include<stdio.h>
 #include<stdlib.h>
-/* swap 2 variables without using temp
+ //swap 2 variables without using temp
 int main(){
   int a=2,b=3;
-  a=a+b;
-  b=a-b;
-  a=a-b;
-  printf("%d %d",a,b\n);
+  a=a^b;
+  b=a^b;
+  a=a^b;
+  printf("%d %d\n",a,b);
   return 0;
 }
-*/
+
 // guessing game
 /*
 int main(){
