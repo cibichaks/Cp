@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-/*
+
 int main(){
     struct lap
     {
@@ -10,11 +10,15 @@ int main(){
         int ram;
     };
     
-    struct lap cibi = {"dell",15,8};
-    printf("%d",cibi.Dsize);
+  //  struct lap cibi = {"dell",15,8};
+//    printf("%d",cibi.Dsize);
+
+    struct lap chai = {"hp",13,4};
+    printf(" chai lap name %s\nchai display size %d\nchai ram %d",chai.brand,chai.Dsize,chai.ram);
+    
     
 }
-*/
+
 //structure array
 /*
 void main(){
@@ -84,7 +88,7 @@ void main(){
 void ptrfun(struct lap *cib){
     printf("%d",cib->ram);
 }
-*/
+*//*
 ///////typedef excercise 
 typedef struct {
     char brand[25];
@@ -106,3 +110,4 @@ void typeex(laptop *det){
     else
     printf("massehh");
 }
+*/
